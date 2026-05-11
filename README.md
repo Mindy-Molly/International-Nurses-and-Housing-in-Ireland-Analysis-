@@ -1,4 +1,3 @@
-readme_content = """
 # INTERNATIONAL NURSES AND HOUSING IN IRELAND ANALYSIS
 
 ## Project Overview
@@ -71,9 +70,3 @@ Several factors limited the analysis:
 ## Conclusion
 
 The analysis highlighted correlations between population and nurse numbers, identified varying hospital and bed densities, and revealed a significant nationwide housing affordability crisis for nurses. All counties exceeded the 30% rent burden threshold, posing a barrier to recruitment and retention. Geographical gaps in hospital distribution were also noted, impacting access to care. Further analysis with more detailed nurse distribution and housing cost data would provide a clearer picture.
-"""
-
-with open('README.md', 'w') as f:
-    f.write(readme_content)
-
-print("README.md generated successfully!")
